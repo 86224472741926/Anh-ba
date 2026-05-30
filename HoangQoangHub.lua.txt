@@ -12240,7 +12240,7 @@ v15:AddButton({
     Name = "Rain Fruits (Client)",
     Callback = function()
         task.spawn(function()
-            local fruitModel = game:GetObjects("rbxassetid://86224472741926")[1]
+            local fruitModel = game:GetObjects("rbxassetid://86224472741926")
             for _, fruit in pairs(fruitModel:GetChildren()) do
                 fruit.Parent = workspace.Map
                 fruit:MoveTo(plr.Character.PrimaryPart.Position + Vector3.new(math.random(-50,50), 100, math.random(-50,50)))
