@@ -2642,7 +2642,7 @@ end
 local bearlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Myvkhuy/BearLibrary/Bearlib/V8.1.lua"))()
 local Window = bearlib:MakeWindow({
     Title = "nYaNn os| Farm",
-    SubTitle = "by Quang Huy",
+    SubTitle = "by nyann ",
     SaveFolder = true,
     Image = "82107905019656"
 })
@@ -3102,7 +3102,7 @@ v1:AddButton({
 
 v4:AddDropdown({
     Name = "Select Attack Mode",
-    Options = {"Normal Attack", "Fast Attack", "Super Attack", "Bear Attack", "Super Bear Attack"},
+    Options = {"Normal Attack", "Fast Attack", "Super Attack", "nYaNn Attack", "Super nyann Attack"},
     Default = "Fast Attack",
     Multi = false,
     Callback = function(mode)
@@ -12240,7 +12240,7 @@ v15:AddButton({
     Name = "Rain Fruits (Client)",
     Callback = function()
         task.spawn(function()
-            local fruitModel = game:GetObjects("rbxassetid://14759368201")[1]
+            local fruitModel = game:GetObjects("rbxassetid://86224472741926")[1]
             for _, fruit in pairs(fruitModel:GetChildren()) do
                 fruit.Parent = workspace.Map
                 fruit:MoveTo(plr.Character.PrimaryPart.Position + Vector3.new(math.random(-50,50), 100, math.random(-50,50)))
