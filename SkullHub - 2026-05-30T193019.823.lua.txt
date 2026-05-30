@@ -2565,14 +2565,14 @@ screenGui.Name = "ControlGUI"
 screenGui.Parent = game.CoreGui
 
 -- Criar ImageButton
-       MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=10734950309",
-       Size = {60, 60},
-       Color = Color3.fromRGB(10, 10, 10),
-       Corner = true,
-       Stroke = false,
-       StrokeColor = Color3.fromRGB(255, 0, 0)
-      })
+locaImageButton.Parent = ScreenGui
+ImageButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0.10615778, 0, 0.16217947, 0)
+ImageButton.Size = UDim2.new(0, 40, 0, 40)
+ImageButton.Draggable = true
+ImageButton.Image = "http://www.roblox.com/asset/?id=10734950309"
+
 -- Adicionar cantos arredondados
 local uiCorner = Instance.new("UICorner")
 uiCorner.CornerRadius = UDim.new(0.5, 0)
