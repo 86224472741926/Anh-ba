@@ -104,7 +104,7 @@ NotificacaoNightMystic("Skull Hub", "Script loaded successfully!")
 -- SAVE SYSTEM (Optimized)
 -- ========================================
 local HttpService = Services.HttpService
-local FolderName = "Skull Hub"
+local FolderName = "nYaNn"
 local FileName = "Settings.json"
 local FullPath = FolderName .. "/" .. FileName
 
@@ -2555,8 +2555,8 @@ QuestNeta = function()
 		};
 	end;
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/VTDROBLOX/Animehub/refs/heads/main/ui_tay.txt"))():MakeWindow({
-    Title = "Skull Hub",
-    SubTitle = "by Khánh depzai",
+    Title = "nYaNn os fram",
+    SubTitle = "by:nyann i",
     SaveFolder = "Maça.json"
 })
 -- Criar ScreenGui
@@ -2572,10 +2572,11 @@ imageButton.Image = "rbxassetid://86224472741926"
 imageButton.BackgroundTransparency = 1
 imageButton.Parent = screenGui
 
--- Adicionar cantos arredondados
-local uiCorner = Instance.new("UICorner")
-uiCorner.CornerRadius = UDim.new(0.5, 0)
-uiCorner.Parent = imageButton
+-- -- Adicionar borda AMARELA
+local uiStroke = Instance.new("UIStroke", imageButton)
+uiStroke.Thickness = 2
+uiStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+uiStroke.Color = Color3.fromRGB(255, 200, 40) -- Magenta/Rosa forte
 
 -- Adicionar borda AMARELA
 local uiStroke = Instance.new("UIStroke", imageButton)
