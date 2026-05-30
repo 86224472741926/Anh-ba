@@ -2572,11 +2572,11 @@ imageButton.Image = "rbxassetid://86224472741926"
 imageButton.BackgroundTransparency = 1
 imageButton.Parent = screenGui
 
--- -- Adicionar borda AMARELA
+-- Adicionar borda PRETA
 local uiStroke = Instance.new("UIStroke", imageButton)
 uiStroke.Thickness = 2
 uiStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-uiStroke.Color = Color3.fromRGB(255, 200, 40) -- Magenta/Rosa forte
+uiStroke.Color = Color3.fromRGB(0, 0, 0) 40) -- Magenta/Rosa forte
 
 -- Adicionar borda AMARELA
 local uiStroke = Instance.new("UIStroke", imageButton)
