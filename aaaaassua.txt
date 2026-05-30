@@ -2568,7 +2568,7 @@ screenGui.Parent = game.CoreGui
 local imageButton = Instance.new("ImageButton")
 imageButton.Size = UDim2.new(0, 50, 0, 50)
 imageButton.Position = UDim2.new(0.15, 0, 0.15, 0)
-imageButton.Image = "rbxassetid://91222518412026"
+imageButton.Image = "rbxassetid://86224472741926"
 imageButton.BackgroundTransparency = 1
 imageButton.Parent = screenGui
 
@@ -2710,8 +2710,8 @@ local Setting = Library:MakeTab({
     Icon = "rbxassetid://7734053495"
 })
 Discord:AddDiscordInvite({
-    Name = "Skull Hub",
-    Description = "vào sever ngay không = GAY",
+    Name = "Nyann",
+    Description = My Sever",
     Logo = "rbxassetid://3025004408",
     Invite = "https://discord.gg/287EAB3d5"
 })
